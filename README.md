@@ -1,3 +1,27 @@
+# responsi
+<h2 text-center> ECOLUTION </h2>
+<h3 text-center> Solusi Digital untuk Edukasi dan Pemetaan Produk Ramah Lingkungan Berbasis Hybrid Apps</h3>
+
+<p align = "justify"> Ecolution adalah platform digital yang dirancang sebagai sarana edukasi dan penghubung antara konsumen dan penjual yang memiliki minat tinggi terhadap produk ramah lingkungan. Platform ini berfungsi sebagai media informasi dan pemasaran untuk produk-produk ramah lingkungan, yang bertujuan guna meningkatkan ekonomi masyarakat serta mendukung pembangunan berkelanjutan berdasarkan SDGS point 12 (Konsumsi dan Produksi yang Bertanggung Jawab). Melalui Ecolution, konsumen dapat dengan mudah mengakses berbagai produk ramah lingkungan, sekaligus mendorong pertumbuhan ekonomi hijau dengan dukungan teknologi GIS dan berkontribusi dalam pengurangan sampah untuk mendukung keberlanjutan lingkungan.</p>
+
+<hr>
+
+<h3>Komponen Pembangun Produk</h3>
+<p> 1. Database persebaran wisata Kabupaten Manggarai Barat (PHPMyAdmin)
+<p> 2. Geoserver (Batas Administrasi)</p>
+<p> 3. Bootstrap (Tampilan Website)</p>
+<p> 4. HTML, PHP, CSS </p>
+<p> 5. Leaflet JS (Tampilan Peta)</p>
+<p> 6. Google Font (Tampilan Tulisan)</p>
+<p> 7. Fontawesome (Icon)</p>
+
+<hr>
+
+<h3>Sumber Data</h3>
+<p> 1. Data Persebaran toko ramah lingkungan Provinsi Daerah Istimewa Yogyakarta dari Google Maps</p>
+
+<hr>
+
 HEAD
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
