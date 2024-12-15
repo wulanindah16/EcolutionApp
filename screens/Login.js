@@ -11,31 +11,25 @@ const Login = ({ navigation }) => {
     const handleLogin = async () => {
         try {
             await signInWithEmailAndPassword(auth, email, password);
-            // Menampilkan alert ketika login berhasil
             Alert.alert('Success', 'Login successful!', [
                 { text: 'OK', onPress: () => navigation.replace('Main') },
             ]);
         } catch (error) {
             setError(error.message);
-            // Menampilkan alert ketika login gagal
             Alert.alert('Error', error.message, [{ text: 'OK' }]);
         }
     };
 
     return (
         <ImageBackground
-            source={require('../assets/background.jpeg')} // Ganti dengan path gambar latar belakang Anda
-            style={styles.container} // Mengatur gaya untuk latar belakang
-        >
-            {/* Header dengan teks "Welcome" dan "Back" terpisah */}
+            source={require('../assets/background.jpeg')}
+            style={styles.container} >
             <View style={styles.headerContainer}>
                 <Text style={styles.headerText}>Hello,</Text>
                 <Text style={styles.headerText}>Eco Heroes!</Text>
             </View>
-
-            {/* Gambar Logo */}
             <Image
-                source={require('../assets/logo.png')} // Ganti dengan path gambar Anda
+                source={require('../assets/logo.png')}
                 style={styles.image}
             />
 
@@ -59,7 +53,6 @@ const Login = ({ navigation }) => {
                 {error ? <Text style={styles.errorText}>{error}</Text> : null}
             </View>
 
-            {/* Tombol Register berada di bawah login */}
             <View style={styles.registerContainer}>
                 <Text style={styles.registerText}>
                     Don't have an account?
@@ -83,22 +76,22 @@ const styles = StyleSheet.create({
     },
     headerContainer: {
         width: '80%',
-        alignItems: 'flex-start', // Menyusun teks ke kiri
+        alignItems: 'flex-start',
         marginBottom: 15,
-        marginTop: -70, // Mengurangi margin bawah agar lebih dekat dengan gambar logo
+        marginTop: -70,
     },
     headerText: {
-        fontSize: 40, // Ukuran font lebih besar
-        fontWeight: 'bold', // Membuat teks menjadi bold
-        color: '#4CAF50', // Warna hijau yang serasi
-        fontFamily: 'Roboto', // Pilih font yang sesuai
-        lineHeight: 40, // Menambahkan jarak antar baris
+        fontSize: 40,
+        fontWeight: 'bold',
+        color: '#4CAF50',
+        fontFamily: 'Roboto',
+        lineHeight: 40,
     },
     image: {
-        width: 120, // Ukuran gambar logo yang lebih kecil
-        height: 130, // Ukuran gambar logo yang lebih kecil
-        marginTop: -10, // Mengurangi margin top untuk memindahkan logo lebih ke atas
-        marginBottom: 10, // Mengurangi jarak antara gambar logo dan form input
+        width: 120,
+        height: 130,
+        marginTop: -10,
+        marginBottom: 10,
     },
     formContainer: {
         width: '80%',
@@ -109,7 +102,7 @@ const styles = StyleSheet.create({
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.2,
         shadowRadius: 4,
-        elevation: 5, // Untuk efek bayangan di Android
+        elevation: 5,
     },
     input: {
         height: 40,
@@ -118,7 +111,7 @@ const styles = StyleSheet.create({
         borderRadius: 5,
         marginBottom: 10,
         paddingHorizontal: 10,
-        color: '#4CAF50', // Warna teks
+        color: '#4CAF50',
     },
     errorText: {
         color: 'red',
@@ -126,7 +119,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
     },
     registerContainer: {
-        marginTop: 10,  // Menambahkan jarak antara form dan tombol register
+        marginTop: 10,
         padding: 10,
     },
     registerText: {
@@ -134,9 +127,9 @@ const styles = StyleSheet.create({
         color: '#000',
     },
     registerLink: {
-        color: '#4CAF50', // Warna teks link
+        color: '#4CAF50',
         fontWeight: 'bold',
-        textDecorationLine: 'underline', // Membuat teks lebih menonjol
+        textDecorationLine: 'underline',
     },
 });
 

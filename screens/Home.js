@@ -7,11 +7,10 @@ const HomeScreen = () => {
 
   return (
     <ImageBackground
-      source={require('../assets/background1.jpeg')} // Ganti dengan path gambar latar belakang Anda
+      source={require('../assets/background1.jpeg')}
       style={styles.imageBackground}
     >
       <ScrollView style={styles.container} contentContainerStyle={{ justifyContent: 'flex-start' }}>
-        {/* Header Section */}
         <View style={styles.header}>
           <Text style={styles.title}>ECOLUTION</Text>
           <Text style={styles.subtitle}>Digital Solution to Save Our Planet</Text>
@@ -23,7 +22,7 @@ const HomeScreen = () => {
           </TouchableOpacity>
         </View>
 
-        {/* Modal for More Information */}
+
         <Modal
           visible={modalVisible}
           animationType="slide"
@@ -41,22 +40,19 @@ const HomeScreen = () => {
           </View>
         </Modal>
 
-        {/* About the Fact Section */}
+
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>About the Fact</Text>
           <Text style={styles.sectionSubtitle}>Tahukah Kamu?</Text>
           <Text style={styles.sectionText}>
-          Berdasarkan data dari Sistem Informasi Pengolahan Sampah Nasional (SIPSN) Kementerian Lingkungan Hidup dan Kehutanan (KLHK), Indonesia pada pertengahan tahun 2024 telah memproduksi sampah nasional sebanyak 31,9 juta ton. Sampah plastik yang sulit terurai mencakup lima persen atau 3,2 juta ton dari total sampah nasional yang dihasilkan setiap tahunnya (Sustainable Waste Indonesia). Masalah sampah plastik ini menjadi tantangan besar bagi keberlanjutan lingkungan, mengingat dampaknya yang merusak ekosistem dan mencemari lingkungan.
+            Berdasarkan data dari Sistem Informasi Pengolahan Sampah Nasional (SIPSN) Kementerian Lingkungan Hidup dan Kehutanan (KLHK), Indonesia pada pertengahan tahun 2024 telah memproduksi sampah nasional sebanyak 31,9 juta ton. Sampah plastik yang sulit terurai mencakup lima persen atau 3,2 juta ton dari total sampah nasional yang dihasilkan setiap tahunnya (Sustainable Waste Indonesia). Masalah sampah plastik ini menjadi tantangan besar bagi keberlanjutan lingkungan, mengingat dampaknya yang merusak ekosistem dan mencemari lingkungan.
           </Text>
         </View>
 
-        {/* Impact Section */}
         <ImpactSection />
 
-        {/* What We Do Section */}
         <WhatWeDoSection />
 
-        {/* What Are the Benefits Section */}
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>The Advantages of Taking Action for the Environment</Text>
           <Text style={styles.sectionSubtitle}>Kontribusi Anda Membawa Kebaikan untuk Masa Depan</Text>
@@ -88,7 +84,7 @@ const HomeScreen = () => {
           </View>
         </View>
 
-        {/* Inspiring Words Section */}
+
         <View style={styles.section}>
           <Text style={[styles.wordsText, styles.boldText, { textAlign: 'center' }]}>
             "Don't be a part of the problem, but be a part of the solution."
@@ -102,7 +98,7 @@ const HomeScreen = () => {
   );
 };
 
-// Impact Section Component
+
 const ImpactSection = () => {
   const impactData = [
     { id: 1, title: 'Pencemaran Lingkungan', description: 'Sampah plastik mencemari tanah, sungai, hingga lautan', image: require('../assets/impact1.jpeg') },
@@ -128,7 +124,7 @@ const ImpactSection = () => {
   );
 };
 
-// What We Do Section Component
+
 const WhatWeDoSection = () => {
   const whatWeDoData = [
     { id: 1, title: 'Meningkatkan Edukasi dan Kesadaran', description: 'Mengajarkan pentingnya peduli lingkungan kepada masyarakat luas.', image: require('../assets/product1.jpeg') },
@@ -154,7 +150,7 @@ const WhatWeDoSection = () => {
   );
 };
 
-// Styling
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,

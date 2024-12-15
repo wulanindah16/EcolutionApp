@@ -13,38 +13,38 @@ const BottomNav = () => {
   return (
     <Tab.Navigator
       screenOptions={{
-        tabBarActiveTintColor: '#47663B',  // Warna aktif hijau
-        tabBarInactiveTintColor: 'gray',  // Warna tidak aktif
-        tabBarStyle: styles.tabBarStyle,  // Gaya tab bar
-        headerShown: false,  // Menyembunyikan header
+        tabBarActiveTintColor: '#47663B',
+        tabBarInactiveTintColor: 'gray',
+        tabBarStyle: styles.tabBarStyle,
+        headerShown: false,
       }}
     >
-      <Tab.Screen 
-        name="Home" 
-        component={Home} 
+      <Tab.Screen
+        name="Home"
+        component={Home}
         options={{
           tabBarIcon: ({ color }) => (
             <FontAwesomeIcon icon={faHome} size={25} color={color} />
           ),
-        }} 
+        }}
       />
-      <Tab.Screen 
-        name="Maps" 
-        component={Maps} 
+      <Tab.Screen
+        name="Maps"
+        component={Maps}
         options={{
           tabBarIcon: ({ color }) => (
             <FontAwesomeIcon icon={faMap} size={25} color={color} />
           ),
-        }} 
+        }}
       />
-      <Tab.Screen 
-        name="Places" 
-        component={Places} 
+      <Tab.Screen
+        name="Places"
+        component={Places}
         options={{
           tabBarIcon: ({ color }) => (
             <FontAwesomeIcon icon={faStore} size={25} color={color} />
           ),
-        }} 
+        }}
       />
     </Tab.Navigator>
   );

@@ -19,18 +19,15 @@ const Profile = ({ navigation }) => {
 
   return (
     <ImageBackground
-      source={require('../assets/background.jpeg')} // Ganti dengan path gambar latar belakang Anda
-      style={styles.container} // Mengatur gaya untuk latar belakang
-    >
-      {/* Header dengan teks yang rata tengah */}
+      source={require('../assets/background.jpeg')}
+      style={styles.container} >
       <View style={styles.headerContainer}>
         <Text style={styles.headerText}>Your Journey Begins Here,</Text>
         <Text style={styles.headerText}>Glad to Have You as Part of Ecolution!</Text>
       </View>
 
-      {/* Gambar Avatar */}
       <Image
-        source={require('../assets/avatar.png')} // Ganti dengan path gambar avatar pengguna Anda
+        source={require('../assets/avatar.png')}
         style={styles.avatar}
       />
 
@@ -52,29 +49,29 @@ const Profile = ({ navigation }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'flex-start',  // Menempatkan konten di bagian atas layar
+    justifyContent: 'flex-start',
     alignItems: 'center',
-    paddingTop: 50,  // Memberikan lebih banyak ruang di bagian atas
+    paddingTop: 50,
   },
   headerContainer: {
     width: '80%',
-    alignItems: 'center', // Menyusun teks di tengah
-    marginBottom: 10,  // Menambahkan jarak margin bawah header
+    alignItems: 'center',
+    marginBottom: 10,
   },
   headerText: {
     fontSize: 19,
     fontWeight: 'bold',
-    color: '#4CAF50', // Warna hijau yang serasi
+    color: '#4CAF50',
     fontFamily: 'Roboto',
-    marginTop: 10, // Menambahkan sedikit jarak antara dua baris teks
-    textAlign: 'center', // Menyelaraskan teks ke tengah
+    marginTop: 10,
+    textAlign: 'center',
   },
   avatar: {
     width: 120,
     height: 120,
     borderRadius: 60,
-    marginTop: 30, // Memberikan lebih banyak jarak antara avatar dan header
-    marginBottom: 20, // Mengurangi jarak bawah avatar
+    marginTop: 30,
+    marginBottom: 20,
   },
   profileContainer: {
     width: '80%',
@@ -85,9 +82,9 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.2,
     shadowRadius: 4,
-    elevation: 5, // Efek bayangan di Android
+    elevation: 5, // Efek bayangan di Androi
     alignItems: 'center',
-    marginBottom: 30,  // Memberikan ruang di bawah profile container
+    marginBottom: 30,
   },
   userText: {
     fontSize: 18,

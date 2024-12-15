@@ -18,13 +18,10 @@ const Register = ({ navigation }) => {
         try {
             const userCredential = await createUserWithEmailAndPassword(auth, email, password);
             await updateProfile(userCredential.user, { displayName: name });
-            
-            // Menampilkan alert jika registrasi berhasil
             Alert.alert('Success', 'Registration successful', [
                 { text: 'OK', onPress: () => navigation.navigate('Login') },
             ]);
         } catch (error) {
-            // Menampilkan alert jika ada error
             setError(error.message);
             Alert.alert('Error', 'Registration failed', error.message, [{ text: 'OK' }]);
         }
@@ -32,21 +29,18 @@ const Register = ({ navigation }) => {
 
     return (
         <ImageBackground
-            source={require('../assets/background.jpeg')} // Ganti dengan path gambar latar belakang Anda
-            style={styles.container} // Mengatur gaya untuk latar belakang
-        >
-            {/* Header dengan teks "Welcome" dan "Back" terpisah */}
+            source={require('../assets/background.jpeg')}
+            style={styles.container} >
             <View style={styles.headerContainer}>
                 <Text style={styles.headerText}>Be part of</Text>
                 <Text style={styles.headerText}>the Eco Enthusiasts</Text>
             </View>
 
-            {/* Gambar Logo */}
             <Image
-                source={require('../assets/logo.png')} // Ganti dengan path gambar Anda
+                source={require('../assets/logo.png')}
                 style={styles.image}
             />
-            
+
             <View style={styles.formContainer}>
                 <TextInput
                     style={styles.input}
@@ -82,7 +76,6 @@ const Register = ({ navigation }) => {
                 {error ? <Text style={styles.errorText}>{error}</Text> : null}
             </View>
 
-            {/* Teks untuk pergi ke halaman login */}
             <View style={styles.loginContainer}>
                 <Text style={styles.loginText}>
                     Have an account?{' '}
@@ -107,7 +100,7 @@ const styles = StyleSheet.create({
     headerContainer: {
         width: '80%',
         alignItems: 'flex-start',
-        marginTop: -80, // Menambahkan margin top untuk menyesuaikan posisi header
+        marginTop: -80,
     },
     headerText: {
         fontSize: 28,
