@@ -25,6 +25,7 @@
 
 <h4>List Data</h4>
 
+<hr>
 <h3>Sumber Data</h3>
 <p> 1. Data Persebaran toko ramah lingkungan Provinsi Daerah Istimewa Yogyakarta dari Google Maps</p>
 
