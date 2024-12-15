@@ -1,0 +1,94 @@
+{
+    "places": [
+      {
+        "no": 1,
+        "nama": "Peony Ecohouse",
+        "deskripsi": "Bulk store",
+        "alamat": "jl",
+        "jambuka": "09.00-20.00",
+        "latitude": "-7.762020096689726",
+        "longitude": "110.37717986450461"
+      },
+      {
+        "no": 2,
+        "nama": "Peppermint Natural & Organics",
+        "deskripsi": "Bulk store",
+        "alamat": "jl",
+        "jambuka": "09.00-20.00",
+        "latitude": "-7.782740175894172",
+        "longitude": "110.36243686364352"
+      },
+      {
+        "no": 3,
+        "nama": "Litter Less",
+        "deskripsi": "Bulk store",
+        "alamat": "jl",
+        "jambuka": "09.00-20.00",
+        "latitude": "-7.780671048297989",
+        "longitude": "110.39360024836098"
+      },
+      {
+        "no": 4,
+        "nama": "Omah Goni",
+        "deskripsi": "Bulk store",
+        "alamat": "jl",
+        "jambuka": "09.00-20.00",
+        "latitude": "-7.805854187063512",
+        "longitude": "110.36877725182997"
+      },
+      {
+        "no": 5,
+        "nama": "Palka Art Craft",
+        "deskripsi": "Bulk store",
+        "alamat": "jl",
+        "jambuka": "09.00-20.00",
+        "latitude": "-7.819353305597118",
+        "longitude": "110.37300691653772"
+      },
+      {
+        "no": 6,
+        "nama": "Vert Terre",
+        "deskripsi": "Bulk store",
+        "alamat": "jl",
+        "jambuka": "09.00-20.00",
+        "latitude": "-7.724663429980746",
+        "longitude": "110.40080916956657"
+      },
+      {
+        "no": 7,
+        "nama": "Ecoprint Kaine",
+        "deskripsi": "Bulk store",
+        "alamat": "jl",
+        "jambuka": "09.00-20.00",
+        "latitude": "-7.772726853058457",
+        "longitude": "110.3386115949627"
+      },
+      {
+        "no": 8,
+        "nama": "Mediterranea Store",
+        "deskripsi": "Bulk store",
+        "alamat": "jl",
+        "jambuka": "09.00-20.00",
+        "latitude": "-7.818552680755094",
+        "longitude": "110.36451707404014"
+      },
+      {
+        "no": 9,
+        "nama": "Ranah Bhumi",
+        "deskripsi": "Bulk store",
+        "alamat": "jl",
+        "jambuka": "09.00-20.00",
+        "latitude": "-7.820069247009322",
+        "longitude": "110.37031635533796"
+      },
+      {
+        "no": 10,
+        "nama": "Butik Daur Ulang",
+        "deskripsi": "Bulk store",
+        "alamat": "jl",
+        "jambuka": "09.00-20.00",
+        "latitude": "-7.752617584347707",
+        "longitude": "110.39826608819494"
+      }
+    ]
+  }

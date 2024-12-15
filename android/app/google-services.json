@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "217535606481",
+    "project_id": "ecolution-app-a5901",
+    "storage_bucket": "ecolution-app-a5901.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:217535606481:android:4d9a2fd80a02c1a21ddff0",
+        "android_client_info": {
+          "package_name": "com.ecolutionapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDR1P5OSDvLlxnDeJ5IEi3DRVWkAFb8Gno"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
