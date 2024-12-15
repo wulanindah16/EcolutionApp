@@ -1,17 +1,17 @@
 <h1 text-center> ECOLUTION APP </h1>
 <h3 text-center> Solusi Digital untuk Edukasi dan Pemetaan Produk Ramah Lingkungan Berbasis Hybrid Apps</h3>
 
-<p align = "justify"> Ecolution adalah platform digital yang dirancang sebagai sarana edukasi dan penghubung antara konsumen dan penjual yang memiliki minat tinggi terhadap produk ramah lingkungan. Platform ini berfungsi sebagai media informasi dan pemasaran untuk produk-produk ramah lingkungan, yang bertujuan guna meningkatkan ekonomi masyarakat serta mendukung pembangunan berkelanjutan berdasarkan SDGs point 12 (Konsumsi dan Produksi yang Bertanggung Jawab). Melalui Ecolution, konsumen dapat dengan mudah mengakses berbagai produk ramah lingkungan, sekaligus mendorong pertumbuhan ekonomi hijau dengan dukungan teknologi GIS dan berkontribusi dalam pengurangan sampah untuk mendukung keberlanjutan lingkungan.</p>
+<p align="justify"> Ecolution adalah platform digital yang dirancang sebagai sarana edukasi dan penghubung antara konsumen dan penjual yang memiliki minat tinggi terhadap produk ramah lingkungan. Platform ini berfungsi sebagai media informasi dan pemasaran untuk produk-produk ramah lingkungan, yang bertujuan guna meningkatkan ekonomi masyarakat serta mendukung pembangunan berkelanjutan berdasarkan SDGs point 12 (Konsumsi dan Produksi yang Bertanggung Jawab). Melalui Ecolution, konsumen dapat dengan mudah mengakses berbagai produk ramah lingkungan, sekaligus mendorong pertumbuhan ekonomi hijau dengan dukungan teknologi GIS dan berkontribusi dalam pengurangan sampah untuk mendukung keberlanjutan lingkungan.</p>
 
 <hr>
 
 <h3>Komponen Pembangun Produk</h3>
-<p> 1. React Native (Framework)
-<p> 2. LeafletJS (Fitur Pemetaan)
-<p> 3. Firebase Authentication (Back-End)
+<p> 1. React Native (Framework) </p>
+<p> 2. LeafletJS (Fitur Pemetaan) </p>
+<p> 3. Firebase Authentication (Back-End) </p>
 <p> 4. Google Sheets API </p>
 <p> 5. Font Awesome (Front-End) </p>
-<p> 6. JavaScript, CSS, HTML (Front-End)</p>
+<p> 6. JavaScript, CSS, HTML (Front-End) </p>
 
 <hr>
 <h3>Tangkapan Layar</h3>
@@ -20,6 +20,7 @@
     <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/register.jpg?raw=true" alt="Authentication Image 1" width="23%" />
     <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/login.jpg?raw=true" alt="Authentication Image 2" width="23%" />
 </div>
+
 <h4>Profil Pengguna</h4>
 <div>
     <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/login.jpg?raw=true" alt="Authentication Image 2" width="23%" />
@@ -27,21 +28,19 @@
 
 <h4>Homepage</h4>
 <div style="display: flex; justify-content: space-between;">
-    [<img src=https://github.com/wulanindah16/EvolutionMap/blob/main/image/home.png />
-    <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/home2.jpg?raw=true" alt="Authentication Image 2" width="23%" />
-    <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/home3.jpg?raw=true" alt="Authentication Image 3" width="23%" />
+    <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/image/home.png?raw=true" alt="Home Image 1" width="23%" />
+    <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/home2.jpg?raw=true" alt="Home Image 2" width="23%" />
+    <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/home3.jpg?raw=true" alt="Home Image 3" width="23%" />
 </div>
-
 
 <h4>Maps</h4>
 <div>
-   <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/maps.jpg?raw=true" alt="Authentication Image 3" width="23%" />
+   <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/maps.jpg?raw=true" alt="Maps Image" width="23%" />
 </div>
-
 
 <h4>List Data</h4>
 <div>
-    <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/listdata.jpg?raw=true" alt="Authentication Image 3" width="23%" />
+    <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/listdata.jpg?raw=true" alt="List Data Image" width="23%" />
 </div>
 
 <hr>
