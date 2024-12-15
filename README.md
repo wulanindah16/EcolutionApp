@@ -14,6 +14,21 @@
 <p> 6. JavaScript, CSS, HTML (Front-End)</p>
 
 <hr>
+## Tangkapan Layar
+<h3>Landing Page</h3>
+
+![Tangkapan Layar 1](landingpage.png)
+![Tangkapan Layar 1](landing3.png)
+
+<h3>Tampilan Peta Destinasi Wisata</h3>
+
+![Tangkapan Layar 1](peta.png)
+
+<h3>Tampilan Tabel Destinasi Wisata</h3>
+
+![Tangkapan Layar 4](destinasi.png)
+
+<h3>Info</h3>
 
 <h3>Sumber Data</h3>
 <p> 1. Data Persebaran toko ramah lingkungan Provinsi Daerah Istimewa Yogyakarta dari Google Maps</p>
