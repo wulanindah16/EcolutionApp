@@ -14,16 +14,16 @@
 <p> 6. JavaScript, CSS, HTML (Front-End)</p>
 
 <hr>
-## Tangkapan Layar
-<h3>Authentication</h3>
+<h3>Tangkapan Layar</h3>
+<h4>Authentication</h4>
 
-<h3>Homepage</h3>
-
-
-<h3>Maps</h3>
+<h4>Homepage</h4>
 
 
-<h3>List Data</h3>
+<h4>Maps</h4>
+
+
+<h4>List Data</h4>
 
 <h3>Sumber Data</h3>
 <p> 1. Data Persebaran toko ramah lingkungan Provinsi Daerah Istimewa Yogyakarta dari Google Maps</p>
