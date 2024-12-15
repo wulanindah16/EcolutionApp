@@ -6,12 +6,12 @@
 <hr>
 
 <h3>Komponen Pembangun Produk</h3>
-<p> 1. React Native Framework
-<p> 2. LeafletJS
-<p> 3. Firebase Authentication
-<p> 4. </p>
-<p> 5. Font Awesome</p>
-<p> 6. JavaScript, CSS, HTML (Tampilan Tulisan)</p>
+<p> 1. React Native (Framework)
+<p> 2. LeafletJS (Fitur Pemetaan)
+<p> 3. Firebase Authentication (Back-End)
+<p> 4. Google Sheets API </p>
+<p> 5. Font Awesome (Front-End) </p>
+<p> 6. JavaScript, CSS, HTML (Front-End)</p>
 
 <hr>
 
