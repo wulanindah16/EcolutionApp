@@ -27,7 +27,7 @@
 
 <h4>Homepage</h4>
 <div style="display: flex; justify-content: space-between;">
-    <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/home1.jpg?raw=true" alt="Authentication Image 1" width="23%" />
+    [<img src=https://github.com/wulanindah16/EvolutionMap/blob/main/image/home.png />
     <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/home2.jpg?raw=true" alt="Authentication Image 2" width="23%" />
     <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/home3.jpg?raw=true" alt="Authentication Image 3" width="23%" />
 </div>
