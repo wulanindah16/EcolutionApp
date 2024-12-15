@@ -17,6 +17,7 @@
 <h3>Tangkapan Layar</h3>
 <h4>Authentication</h4>
 <div style="display: flex; justify-content: space-between;">
+    <img src="assets/page/home1.png">
     <img src="https://github.com/wulanindah16/EvolutionMap/raw/main/assets/images/home.png" alt="Home Image" width="23%" />
     <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/login.jpg?raw=true" alt="Authentication Image 2" width="23%" />
 </div>
