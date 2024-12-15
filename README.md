@@ -22,7 +22,6 @@
 </div>
 
 <h4>Homepage</h4>
-<h4>Authentication</h4>
 <div style="display: flex; justify-content: space-between;">
     <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/image1.jpg?raw=true" alt="Authentication Image 1" width="23%" />
     <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/image2.jpg?raw=true" alt="Authentication Image 2" width="23%" />
@@ -31,16 +30,14 @@
 
 
 <h4>Maps</h4>
-<h4>Authentication</h4>
 <div>
-    <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/image1.jpg?raw=true" alt="Authentication Image 1" width="23%" />
+    <img src="https://github.com/wulanindah16/EvolutionMap/maps.jpg?raw=true" alt="Authentication Image 1" width="23%" />
 </div>
 
 
 <h4>List Data</h4>
-<h4>Authentication</h4>
 <div>
-    <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/image1.jpg?raw=true" alt="Authentication Image 1" width="23%" />
+    <img src="https://github.com/wulanindah16/EvolutionMap/listdata.jpg?raw=true" alt="Authentication Image 1" width="23%" />
 </div>
 
 <hr>
