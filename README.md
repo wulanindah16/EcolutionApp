@@ -35,10 +35,10 @@
 
 <h4>Maps</h4>
 <div>
- <img src="maps.png">
+ <img src="maps.jpg">
 <h4>List Data</h4>
 <div>
-    <img src="listdata.png">
+    <img src="listdata.jpg">
 </div>
 
 <hr>
