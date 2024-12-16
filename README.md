@@ -17,31 +17,28 @@
 <h3>Tangkapan Layar</h3>
 <h4>Authentication</h4>
 <div style="display: flex; justify-content: space-between;">
-    <img src="assets/page/home1.png">
-    <img src="https://github.com/wulanindah16/EvolutionMap/raw/main/assets/images/home.png" alt="Home Image" width="23%" />
-    <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/login.jpg?raw=true" alt="Authentication Image 2" width="23%" />
+    <img src="login.png">
+     <img src="register.png">
 </div>
 
 <h4>Profil Pengguna</h4>
 <div>
-    <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/login.jpg?raw=true" alt="Authentication Image 2" width="23%" />
+     <img src="profil.png">
 </div>
 
 <h4>Homepage</h4>
 <div style="display: flex; justify-content: space-between;">
-    <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/image/home.png?raw=true" alt="Home Image 1" width="23%" />
-    <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/home2.jpg?raw=true" alt="Home Image 2" width="23%" />
-    <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/home3.jpg?raw=true" alt="Home Image 3" width="23%" />
+    <img src="home.png">
+    <img src="home1.png">
+    <img src="home2.png">
 </div>
 
 <h4>Maps</h4>
 <div>
-   <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/maps.jpg?raw=true" alt="Maps Image" width="23%" />
-</div>
-
+ <img src="maps.png">
 <h4>List Data</h4>
 <div>
-    <img src="https://github.com/wulanindah16/EvolutionMap/blob/main/assets/images/listdata.jpg?raw=true" alt="List Data Image" width="23%" />
+    <img src="listdata.png">
 </div>
 
 <hr>
